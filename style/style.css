@@ -1,0 +1,383 @@
+.Part {
+    border: 1px solid black; /* Ajoute une bordure pour délimiter les blocs */
+    padding: 10px; /* Espacement interne */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre légère */
+    text-align: center; /* Centrer le texte */
+}
+
+.numSAE {
+    font-weight: bold;/* Met le texte en gras */
+    font-size: 25px;/* Définit la taille de la police */
+    margin-bottom: 5px;
+    background-color: #C5D0C3;
+}
+
+.titre {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+header {
+    display: flex;/* Utilise Flexbox pour aligner les éléments */
+    align-items: center; /* Centre les éléments verticalement */
+    color: #013220;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;/* Active le défilement fluide */
+  }
+  
+body {
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+/* Page d'accueil*/
+.deg {
+    background: linear-gradient(#A2D5F2, #F2A2A2, #F2E2A2); /* Dégradé de couleurs pour le fond */
+    min-height: 100vh;/* Hauteur minimale de la page à 100% de la fenêtre */
+    margin: 0;
+}
+
+.menu {
+    margin-right: auto;
+    font-size: 20px;
+}
+
+  .menua a:hover {
+    color: #007bff;  /* Changer la couleur du texte au survol */
+    transform: scale(1.1); /* Agrandir légèrement le texte */
+    color: #007bff;  /* Changer la couleur du texte au survol */
+  transform: scale(1.1); /* Agrandir légèrement la case */
+  padding: 12px 24px; /* Augmenter l'espace autour du texte */
+  }
+
+.menua{
+    margin-right: auto;
+    font-size: 20px;
+    border: solid;
+    border-color: #AC1616;
+    padding: 10px;
+    border-radius: 10px; /* Ajoute des bords arrondis */
+    background-color: rgb(250, 233, 175);
+    text-decoration: none; /* Supprime le soulignement du texte */
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s, padding 0.3s; /* Ajoute une transition douce pour les effets */
+}
+
+.txt:hover {
+    background-color: #0E3B5F; /* Change la couleur de fond au survol */
+    color: #E6C27A; /* Change la couleur du texte au survol */
+    transform: scale(1.05); /* Agrandit légèrement l'élément au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre au survol */
+    
+}
+
+.pas {
+    color: #AC1616;
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 65px;
+    font-family: "Mogra", system-ui; /* Définit la police utilisée */
+    font-weight: 400;/* Définit l'épaisseur de la police */
+    font-style: normal;/* Définit le style de la police */
+}
+
+.ima {
+    display: flex;
+    justify-content: space-around;/* Eléments avec des espaces autour */
+    margin-bottom: 20px;
+    padding: 15px;
+    gap: 10px; /* Ajoute un espace entre les éléments */
+}
+
+.imag{
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.imag:hover {
+    transform: scale(1.1); /* Zoom */
+    cursor: pointer; /* Change le curseur en pointeur */
+}
+
+.ima1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    padding: 15px;
+    padding-bottom: 29px;
+}
+
+.logo {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.log {
+    width: 25%; /* Définit la largeur de l'image à 25% */
+}
+
+.txt {
+    border-radius: 10px;
+    border: solid;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 30px;
+    padding-right: 10px;
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: fit-content;
+    margin: 0;
+    text-align: center;
+    color: #B57EDC;
+}
+
+/* Page sommaire*/
+.deg1 {
+    background: linear-gradient(#F2E2A2, #F2A2A2, #A2D5F2);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.logo1 {
+    margin-left: 10px;
+    margin-top: 5px;
+    display: flex;
+    width: 150px;
+}
+
+.log1 {
+    width: 100%;
+}
+
+.SAE {
+    font-family: "Mogra", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.Part {
+    border: 1px solid black; /* Ajoute une bordure pour délimiter les blocs */
+    padding: 10px; /* Espacement interne */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre légère */
+    text-align: center; /* Centrer le texte */
+    box-sizing: border-box;
+    justify-content: center;
+    width: auto;
+}
+
+.zone-cube {
+    flex-wrap: wrap; /* Permet aux blocs de revenir à la ligne */
+    gap: 10px; /* Espacement entre les blocs */
+    justify-content: center; /* Centrer les éléments horizontalement */
+    display: flex;
+}
+
+.zone-cube1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    display: flex;
+}
+
+
+.SAE>h3 {
+    font-size: 45px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #00274D;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+
+
+.sae-link{
+    width: 300px;
+    gap: 30px;
+}
+
+
+/* Page détails*/
+/* Titre de la SAE */
+.tt {
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    color: #013220;
+}
+
+.descp,
+.comp,
+.acs,
+.ress,
+.sem {
+    margin: 20px;
+    padding: 15px;
+    background: rgba(00, 31, 63);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.acs{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sem {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ress {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    margin-left: 30px;
+}
+
+/* Style commun aux titres */
+.tligne {
+    margin-left: 10px;
+    color: #E6C27A;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Description texte */
+.de,
+.compet,
+.apprentissage,
+.ressour,
+.semes {
+    color: white;
+    display: block;
+    margin-left: 40px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+
+
+.compt {
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #80DEEA, 0, 5;
+    border: solid;
+    border-color: #00274D;
+    border-width: 2px;
+    font-size: 18px;
+    padding: 3px;
+}
+
+/* Le footer */
+.footer {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%; /* S'étend sur toute la largeur disponible */
+}
+
+/* Le lien dans le footer */
+.bouton {
+    text-decoration: none;
+    color: #113e62;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #113e62;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Effet au survol du lien */
+.bouton:hover {
+    background-color: #cd90f9;
+    color: white;
+    border: 2px solid #0000FF;
+}
+
+.PDFS{
+    text-decoration: none;
+    color: white;
+    justify-content: flex-start;
+    display: flex;
+    line-height: 0;
+}
+
+.bleu {
+    background-color: #0A0AFF;
+    min-height: 100vh;
+    margin: 0;
+    padding: 1px;
+}
+
+h2{
+    color: white;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+.textemoi{
+    color: white;
+    margin: 30px;
+}
+
+.imagemoi {
+    display: grid; /* Utilisation de CSS Grid */
+    grid-template-columns: repeat(3, 1fr); /* Trois colonnes pour la première rangée */
+    grid-template-rows: auto auto; /* Deux rangées */
+    gap: 20px; /* Espacement entre les images */
+    justify-content: center; /* Centre les colonnes horizontalement */
+    align-items: center; /* Centre les rangées verticalement */
+    margin-left: 50px;
+}
+
+.img-biathlon,.img-ferrari, .img-rcsa, .img-bayern, .img-sig{
+    width: 75%;
+}
+
+.competences{
+    line-height: 1; /* Définit l'interligne à 1, ce qui signifie que la hauteur des lignes est égale à leur taille de police */
+}
